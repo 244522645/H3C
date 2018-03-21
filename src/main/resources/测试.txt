@@ -1,0 +1,8 @@
+1.可以根据名字查询集群，名字更换以后还能查到么
+2.主机池，主机，群集的关系
+3.获取的参数
+   3.1 查询主机池   /cas/casrs/hostpool/all
+   3.2 查询主机及群集   /cas/casrs/hostpool/主机池ID/allChildNode
+   3.3 查询主机池下所有虚拟机 /cas/casrs/vm/vmList?hpId={主机池id}&offset={分页的头部（非必须）}&limit={每页大小}&sortField={排序类型}&sortDir={升降序}
+   3.4 查询主机池概要信息  /cas/casrs/hostpool/summary/{主机池id}
+   3.5 查询CAS系统中指定主机池下的主机列表。 /cas/casrs/hostpool/host/{hpId}?hostName={hostName}&offset={offset}&limit={limit}
