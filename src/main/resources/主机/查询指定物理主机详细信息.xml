@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<host type="kvm">
+    <id>4</id>
+    <name>cvknode</name>
+    <ip>10.20.4.80</ip>
+    <model>VMware Virtual Platform</model>
+    <vendor>VMware, Inc.</vendor>
+    <cpuCount>4</cpuCount>
+    <cpuModel>Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz</cpuModel>
+    <cpuFrequence>2399</cpuFrequence>
+    <diskSize>28167</diskSize>
+    <memorySize>7527</memorySize>
+    <status>1</status>
+    <cpuSockets>2</cpuSockets>
+    <cpuCores>2</cpuCores>
+    <pNIC>
+        <name>eth0</name>
+        <description>VMware VMXNET3 Ethernet Controller</description>
+        <status>1</status>
+        <macAddr>00:50:56:a8:e0:5a</macAddr>
+    </pNIC>
+</host>

@@ -14,13 +14,13 @@ public class H3c {
     public static CloseableHttpClient client;
     public static void main(String[] args) throws Exception {
         /* 获取所有主机列表 */
-        getHost("http://192.168.20.171:8080/cas/casrs/host/");
-        /* 获取某个主机上的所有虚拟机列表 */
-        getVM("http://192.168.20.171:8080/cas/casrs/vm/vmList?hostId=2");
-        /* 获取某个虚拟机的性能监控数据 */
-        getVMperf("http://192.168.20.171:8080/cas/casrs/vm/id/9/monitor");
-        /* 查询指定集群统计信息 */
-        getClusterInfo("http://192.168.20.171:8080/cas/casrs/cluster/summary/2");
+        getHost("http://10.20.4.80:8080/cas/casrs/hostpool/host/1?hostName=&offset=0&limit=20");
+//        /* 获取某个主机上的所有虚拟机列表 */
+//        getVM("http://10.20.4.80:8080/cas/casrs/vm/vmList?hostId=2");
+//        /* 获取某个虚拟机的性能监控数据 */
+//        getVMperf("http://10.20.4.80:8080/cas/casrs/vm/id/9/monitor");
+//        /* 查询指定集群统计信息 */
+//        getClusterInfo("http://10.20.4.80:8080/cas/casrs/cluster/summary/2");
     }
     /* 获取所有主机列表 */
     public static void getHost (String url) throws Exception {
@@ -29,7 +29,7 @@ public class H3c {
         get.addHeader("accept", "application/xml");
         HttpResponse response = client.execute(get);
         System.out.println(response.getStatusLine());
-        System.out.println(EntityUtils.toString(response.getEntity()));
+        System.out.println(EntityUtils.toString(response.getEntity(),"UTF-8"));
     }
     /* 获取某个主机上的所有虚拟机列表 */
     public static void getVM (String url) throws Exception {
@@ -64,7 +64,7 @@ public class H3c {
             CredentialsProvider credsProvider = new BasicCredentialsProvider();
             credsProvider.setCredentials(
                     // 认证范围
-                    new AuthScope("192.168.20.171", 8080, "VMC RESTful Web Services"),
+                    new AuthScope("10.20.4.80", 8080, "VMC RESTful Web Services"),
                     // 认证用户名和密码
                     new UsernamePasswordCredentials("admin", "admin"));
             client = HttpClients.custom().setDefaultCredentialsProvider(credsProvider).build();

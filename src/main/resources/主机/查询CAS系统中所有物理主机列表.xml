@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<list>
+    <host type="kvm">
+        <id>4</id>
+        <clusterId>1</clusterId>
+        <name>cvknode</name>
+        <ip>10.20.4.80</ip>
+        <status>1</status>
+    </host>
+</list>

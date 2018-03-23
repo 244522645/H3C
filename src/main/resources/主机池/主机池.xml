@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<list>
+    <hostPool>
+        <id>1</id>
+        <name>hello</name>
+        <operatorGroupId>1</operatorGroupId>
+        <operatorGroupCode>00</operatorGroupCode>
+        <childNum>1</childNum>
+    </hostPool>
+    <hostPool>
+        <id>3</id>
+        <name>hello2</name>
+        <operatorGroupId>1</operatorGroupId>
+        <operatorGroupCode>00</operatorGroupCode>
+    </hostPool>
+</list>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<list>
+    <vSwitch>
+        <id>4</id>
+        <hostId>4</hostId>
+        <name>vswitch0</name>
+        <portNum>32</portNum>
+        <mode>0</mode>
+        <pnic>eth0</pnic>
+        <address>10.20.4.80</address>
+        <netmask>255.255.0.0</netmask>
+        <gateway>10.20.0.1</gateway>
+        <enableLacp>false</enableLacp>
+        <bondMode></bondMode>
+        <isManage>1</isManage>
+        <status>1</status>
+        <isRuningVmUseVSwitch>false</isRuningVmUseVSwitch>
+        <flag>0</flag>
+        <haStatus>0</haStatus>
+        <isVxlanScopeUseVSwitch>false</isVxlanScopeUseVSwitch>
+    </vSwitch>
+</list>

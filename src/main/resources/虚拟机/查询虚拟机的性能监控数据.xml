@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<domain>
+    <id>10</id>
+    <cpuRate>8.76</cpuRate>
+    <memRate>63.58</memRate>
+    <status>2</status>
+    <uuid>42a4c569-a8a2-4840-84db-91f350e7ee29</uuid>
+    <flag>1</flag>
+    <type>0</type>
+    <deployed>false</deployed>
+    <hoststatus>0</hoststatus>
+    <hostHaEnable>1</hostHaEnable>
+    <antivirusEnable>0</antivirusEnable>
+    <uptime>0</uptime>
+    <disk>
+        <device>vda</device>
+        <time>1521860160</time>
+        <ioStat>2.0</ioStat>
+        <readStat>0.0</readStat>
+        <writeStat>2.0</writeStat>
+        <readReqest>0.0</readReqest>
+        <writeReqest>0.0</writeReqest>
+        <readLatency>0.0</readLatency>
+        <writeLatency>37.492023</writeLatency>
+    </disk>
+    <net>
+        <mac>0c:da:41:1d:f3:22</mac>
+        <time>1521860160</time>
+        <readFlow>0.0</readFlow>
+        <readPackets>0.0</readPackets>
+        <writeFlow>0.0</writeFlow>
+        <writePackets>0.0</writePackets>
+    </net>
+    <flowLink>0</flowLink>
+</domain>

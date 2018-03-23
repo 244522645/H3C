@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<list>
+    <keyValue>
+        <key>IP地址</key>
+        <value>10.20.4.80</value>
+    </keyValue>
+    <keyValue>
+        <key>主机型号</key>
+        <value>VMware, Inc. VMware Virtual Platform</value>
+    </keyValue>
+    <keyValue>
+        <key>CPU数量</key>
+        <value>2 * 2 核</value>
+    </keyValue>
+    <keyValue>
+        <key>CPU型号</key>
+        <value>Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz</value>
+    </keyValue>
+    <keyValue>
+        <key>CPU主频</key>
+        <value>2.4GHz</value>
+    </keyValue>
+    <keyValue>
+        <key>内存</key>
+        <value>7.35GB</value>
+    </keyValue>
+    <keyValue>
+        <key>版本</key>
+        <value>CVK 3.0 (E0306)</value>
+    </keyValue>
+    <keyValue>
+        <key>total</key>
+        <value>1</value>
+    </keyValue>
+    <keyValue>
+        <key>run</key>
+        <value>1</value>
+    </keyValue>
+    <keyValue>
+        <key>shutoff</key>
+        <value>0</value>
+    </keyValue>
+    <keyValue>
+        <key>image</key>
+        <value>1</value>
+    </keyValue>
+    <keyValue>
+        <key>主机本地存储</key>
+        <value>27.51GB</value>
+    </keyValue>
+    <keyValue>
+        <key>系统运行时间</key>
+        <value>47天17时39分10秒</value>
+    </keyValue>
+    <keyValue>
+        <key>diskRate</key>
+        <value>28.0</value>
+    </keyValue>
+</list>

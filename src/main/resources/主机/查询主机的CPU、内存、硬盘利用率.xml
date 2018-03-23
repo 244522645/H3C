@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<host>
+    <cpuRate>21.22</cpuRate>
+    <memRate>41.8</memRate>
+    <disk>
+        <device>sda1</device>
+        <usage>32.0</usage>
+    </disk>
+    <disk>
+        <device>sda7</device>
+        <usage>28.0</usage>
+    </disk>
+    <disk>
+        <device>sda5</device>
+        <usage>2.0</usage>
+    </disk>
+</host>

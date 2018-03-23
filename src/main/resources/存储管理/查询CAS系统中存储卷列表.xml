@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<list>
+    <storageVolume>
+        <allocation>1216.7578125</allocation>
+        <backingStore></backingStore>
+        <baseFile>false</baseFile>
+        <format>qcow2</format>
+        <level>0</level>
+        <name>hello</name>
+        <size>10240.0</size>
+        <tempImg>false</tempImg>
+        <users>hello</users>
+    </storageVolume>
+</list>

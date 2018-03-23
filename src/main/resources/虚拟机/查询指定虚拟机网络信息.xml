@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<list>
+    <network>
+        <mac>0c:da:41:1d:f3:22</mac>
+        <vsName>vswitch0</vsName>
+        <vlan>1</vlan>
+        <isLimitInBound>false</isLimitInBound>
+        <isLimitOutBound>false</isLimitOutBound>
+        <mode>VEB</mode>
+        <virtualport>false</virtualport>
+        <vlanType>0</vlanType>
+    </network>
+</list>

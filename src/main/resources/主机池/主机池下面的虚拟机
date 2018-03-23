@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<list>
+    <domain>
+        <id>10</id>
+        <hostId>4</hostId>
+        <clusterId>1</clusterId>
+        <hostPoolId>1</hostPoolId>
+        <name>hello</name>
+        <title>hello</title>
+        <hostName>cvknode</hostName>
+        <description>ssss</description>
+        <memory>2048</memory>
+        <cpuRate>34.95222222222222</cpuRate>
+        <memRate>34.17333333333334</memRate>
+        <cpu>1</cpu>
+        <vmStatus>running</vmStatus>
+        <uuid>42a4c569-a8a2-4840-84db-91f350e7ee29</uuid>
+        <system>1</system>
+        <osDesc>CentOS 6/7(64-bit)</osDesc>
+        <flag>1</flag>
+        <type>0</type>
+        <deployed>false</deployed>
+        <haStatus>0</haStatus>
+        <haManage>1</haManage>
+        <protectModel>0</protectModel>
+        <hoststatus>0</hoststatus>
+        <hostHaEnable>1</hostHaEnable>
+        <antivirusEnable>0</antivirusEnable>
+        <uptime>-1</uptime>
+    </domain>
+</list>

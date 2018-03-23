@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<list>
+    <hostPartitionDetail>
+        <partitionName>/dev/sda1</partitionName>
+        <utilization>32.0</utilization>
+        <size>9.85</size>
+        <used>2.94</used>
+        <partitionType>ext4</partitionType>
+        <mountedDir>/</mountedDir>
+    </hostPartitionDetail>
+    <hostPartitionDetail>
+        <partitionName>/dev/sda5</partitionName>
+        <utilization>2.0</utilization>
+        <size>12.85</size>
+        <used>0.18</used>
+        <partitionType>ext4</partitionType>
+        <mountedDir>/var/log</mountedDir>
+    </hostPartitionDetail>
+    <hostPartitionDetail>
+        <partitionName>/dev/sda7</partitionName>
+        <utilization>28.0</utilization>
+        <size>27.51</size>
+        <used>7.21</used>
+        <partitionType>ext4</partitionType>
+        <mountedDir>/vms</mountedDir>
+    </hostPartitionDetail>
+</list>

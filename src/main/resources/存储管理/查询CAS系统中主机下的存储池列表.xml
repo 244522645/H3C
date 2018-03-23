@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<list>
+    <storagePool>
+        <name>defaultpool</name>
+        <path>/vms/images</path>
+        <type>dir</type>
+        <totalSize>28167</totalSize>
+        <freeSize>19336</freeSize>
+        <status>1</status>
+        <autoStart>false</autoStart>
+    </storagePool>
+    <storagePool>
+        <name>isopool</name>
+        <path>/vms/isos</path>
+        <type>dir</type>
+        <totalSize>28167</totalSize>
+        <freeSize>19336</freeSize>
+        <status>1</status>
+        <autoStart>false</autoStart>
+    </storagePool>
+</list>
